@@ -5,17 +5,21 @@
 /*header*/
 header{
     height:100px;
-    background:#252558;
+    background:#303068;
     padding:0 50px;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items:center;
 }
-.logo{
-    text-transform: uppercase;
-    color:rgba(255, 255, 0, 0.734);
-    font-weight:200;
+.animate__jello{
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation:infinite; 
+  animation-duration: 4s;
+  color: yellow;
+}
 
 }
 .menu a{
@@ -103,6 +107,9 @@ background-position: center;
 }
 #estadios img{
     border-radius: 100%;
+}
+#estadios img:hover{
+    transform:skewX(20deg);
 }
 #estadios div{
     padding: 30px 30px;

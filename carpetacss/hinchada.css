@@ -12,12 +12,14 @@ header{
     justify-content: space-between;
     align-items:center;
 }
-.logo{
-    text-transform: uppercase;
-    color:aquamarine;
-    font-weight:200;
+.animate__jello{
+    display: inline-block;
+  margin: 0 0.5rem;
 
+  animation:infinite; 
+  animation-duration: 4s;
 }
+
 .menu a{
     color:#fff;
     text-transform: uppercase;
@@ -103,6 +105,9 @@ background-position: center;
 #estadios img{
     border-radius: 100%;
 }
+#estadios img:hover{
+    transform:skewX(20deg);
+}
 #estadios div{
     padding: 30px 30px;
 }
@@ -141,6 +146,14 @@ background-position: center;
   text-align:center; 
   font-size: 25px;
   margin-bottom: 20px;
+  
+}
+.animate__zoomIn{ 
+display: inline-block;
+  margin: 0 0.5rem;
+
+  animation:infinite; 
+  animation-duration: 4s;
 }
 .contacto form{
    max-width: 80%; 
@@ -192,6 +205,7 @@ form textarea::placeholder{
 botom-formulario.boton-saber-mas:hover{
     background:#4fa776ad;
 }
+
 footer{
     background: #6cc091;
     text-align: center;
@@ -200,6 +214,13 @@ footer{
 .footer a{
     color: #fff;
 }
+.transformame{
+    transform: translateX(50px);  
+   transition: all.3s ease-in-out;
+  }
+  .transformame:hover{
+      transform:skew(20deg,10deg);
+  }
 /*responsive*/
 @media (max-width: 768px){
     /*header*/

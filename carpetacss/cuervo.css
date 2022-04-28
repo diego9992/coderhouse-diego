@@ -12,10 +12,13 @@ header{
     justify-content: space-between;
     align-items:center;
 }
-.logo{
-    text-transform: uppercase;
-    color:aquamarine;
-    font-weight:200;
+.animate__jello{
+    display: inline-block;
+  margin: 0 0.5rem;
+
+  animation:infinite; 
+  animation-duration: 4s;
+}
 
 }
 .menu a{
@@ -102,6 +105,9 @@ background-position: center;
 }
 #estadios img{
     border-radius: 100%;
+}
+#estadios img:hover{
+    transform:skewX(20deg);
 }
 #estadios div{
     padding: 30px 30px;
