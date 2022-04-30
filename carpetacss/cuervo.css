@@ -15,7 +15,7 @@ header{
 .animate__jello{
     display: inline-block;
   margin: 0 0.5rem;
-
+color: blue;
   animation:infinite; 
   animation-duration: 4s;
 }
@@ -68,7 +68,7 @@ background-position: center;
 }
 .contenido-banner{
     position: relative;
-    color:aqua;
+    color:blue;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -199,9 +199,9 @@ botom-formulario.boton-saber-mas:hover{
     background:#fff;
 }
 footer{
-    background: #6cc091;
+    background:red;
     text-align: center;
-    color: #fff;
+    color: blue;
 }
 .footer a{
     color: #fff;

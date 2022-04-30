@@ -5,9 +5,9 @@
 /*header*/
 header{
     height:100px;
-    background:#4D4D5C;
+    background:#fff;
     padding:0 50px;
-    color: #fff;
+    color:red;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -66,7 +66,7 @@ background-position: center;
 }
 .contenido-banner{
     position: relative;
-    color:aqua;
+    color:#fff;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -81,6 +81,7 @@ background-position: center;
     font-style:600 ;
 
 }
+
 .boton-empezar{
     text-decoration: none;
     color:aqua;
@@ -197,13 +198,11 @@ botom-formulario.boton-saber-mas:hover{
     background:#4fa776ad;
 }
 footer{
-    background: #6cc091;
+    background:#fff;
     text-align: center;
-    color: #fff;
+    color:red;
 }
-.footer a{
-    color: #fff;
-}
+
 
 /*responsive*/
 @media (max-width: 768px){
