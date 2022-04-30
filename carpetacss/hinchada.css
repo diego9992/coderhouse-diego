@@ -5,9 +5,9 @@
 /*header*/
 header{
     height:100px;
-    background:#4D4D5C;
+    background:#fff;
     padding:0 50px;
-    color: #fff;
+    color: #4D4D5C;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -18,6 +18,9 @@ header{
 
   animation:infinite; 
   animation-duration: 4s;
+}
+.container {
+    list-style:none;
 }
 
 .menu a{
@@ -67,7 +70,7 @@ background-position: center;
 }
 .contenido-banner{
     position: relative;
-    color:aqua;
+    color:antiquewhite;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -133,8 +136,9 @@ background-position: center;
 .boton-saber-mas:hover{
     background:#6cc091 ;
     color: #fff;
+    
 }
-
+}
 /*formulario*/
 #contacto{
     background:#6cc091 ;
@@ -146,7 +150,7 @@ background-position: center;
   text-align:center; 
   font-size: 25px;
   margin-bottom: 20px;
-  
+margin: auto;
 }
 .animate__zoomIn{ 
 display: inline-block;
@@ -172,9 +176,9 @@ form label{
 }
 form input,
 form textarea{
-    background:#6cc091 ;
+    background:#4D4D5C;
     border-radius:10px ;
-    border: 2px solid #3bdca9;
+    border: 2px solid #4D4D5C;
     padding: 10px 5px;
     outline: 0;
     color: #fff;
@@ -182,7 +186,7 @@ form textarea{
 }
 form input:focus,
 form textarea:focus{
-   border-color: #4ba; 
+   border-color: #4D4D5C; 
    box-shadow: 0 0 0 1px #4ba;
 }
 form input::placeholder,
@@ -191,8 +195,8 @@ form textarea::placeholder{
 }
 .mensaje{
     display:flex ;
-    flex-direction: column;
-    padding: 10px;
+    flex-direction:column;
+    text-align: center;
 }
 .botom-formulario.boton-saber-mas{
     display: block;
@@ -207,9 +211,10 @@ botom-formulario.boton-saber-mas:hover{
 }
 
 footer{
-    background: #6cc091;
+    margin: auto;
+    background: #fff;
     text-align: center;
-    color: #fff;
+    color: #4D4D5C;
 }
 .footer a{
     color: #fff;
