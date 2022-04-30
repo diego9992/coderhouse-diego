@@ -199,9 +199,9 @@ botom-formulario.boton-saber-mas:hover{
     background:#fff;
 }
 footer{
-    background: #6cc091;
+    background: blue;
     text-align: center;
-    color: #fff;
+    color:red;
 }
 .footer a{
     color: #fff;
