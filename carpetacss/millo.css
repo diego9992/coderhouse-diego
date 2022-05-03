@@ -93,6 +93,13 @@ background-position: center;
     background: #6cc09070;
 
 }
+section a {
+    text-decoration:none;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  color: red;
+
+}
 /*estadios*/
 #estadios{
     padding: 50px 50px;

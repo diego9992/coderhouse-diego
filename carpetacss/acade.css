@@ -94,6 +94,14 @@ background-position: center;
     
 
 }
+section a {
+    text-decoration:none;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  color:turquoise;
+
+}
+
 /*estadios*/
 #estadios{
     padding: 50px 50px;
