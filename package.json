@@ -1,0 +1,25 @@
+{
+  "name": "coderhouse-diego",
+  "version": "1.0.0",
+  "description": "este es el repositorio para mi pagina web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego9992/coderhouse-diego.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diego9992/coderhouse-diego/issues"
+  },
+  "homepage": "https://github.com/diego9992/coderhouse-diego#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
