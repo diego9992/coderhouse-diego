@@ -1,5 +1,6 @@
 @import "nav";
 @import "variable";
+@import"redes";
 
 body{
     display:grid;
@@ -128,6 +129,21 @@ footer {
      padding: 5px;
      }
 }
+$redes:(
+ facebook: #0026a2,
+ instagram: #c000f6,
+ whatsapp:rgba(187, 187, 39, 0.806),
+ linkedin:aqua,
+);
+@each $red,$color in $redes{
+    .red-#{$red}{
+        color:$color;
+        width: 10px;
+        height: 10px;
+        margin:2px;
+    }
+}
+
 /*responsive*/
 @media (max-width: 768px){
     /*header*/

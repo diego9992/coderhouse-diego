@@ -19,6 +19,30 @@
   .menu a #check {
     display: none; }
 
+.red-facebook {
+  color: #0026a2;
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
+
+.red-instagram {
+  color: #c000f6;
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
+
+.red-whatsapp {
+  color: rgba(187, 187, 39, 0.806);
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
+
+.red-linkedin {
+  color: aqua;
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
+
 body {
   display: grid;
   grid-template-areas: "nav header" "nav nav" "main main" "footer footer"; }
@@ -120,6 +144,30 @@ footer {
     text-decoration: none;
     margin: 5px;
     padding: 5px; }
+
+.red-facebook {
+  color: #0026a2;
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
+
+.red-instagram {
+  color: #c000f6;
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
+
+.red-whatsapp {
+  color: rgba(187, 187, 39, 0.806);
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
+
+.red-linkedin {
+  color: aqua;
+  width: 10px;
+  height: 10px;
+  margin: 2px; }
 
 /*responsive*/
 @media (max-width: 768px) {
