@@ -66,13 +66,13 @@ h2 {
     animation: infinite;
     animation-duration: 4s; }
 
-#banner {
+#banner, #banner .contenido-banner {
   padding: 0 50px;
   background-image: url(../imagenes/5bbfd08e126aa1a51c000001.webp);
   height: 45vh;
   background-size: cover;
   background-position: center; }
-  #banner #banner::before {
+  #banner #banner::before, #banner .contenido-banner::before {
     background: #4D4D5C;
     position: absolute;
     width: 100%;
@@ -100,14 +100,15 @@ h2 {
     transition: all 0.4s ease-in-out; }
   #banner .boton-empezar:hover {
     background: #6cc09070; }
-  #banner section a {
+  #banner section a, #banner .contenido-banner section a {
     text-decoration: none;
     margin: 5px 5px;
     padding: 5px 5px;
     color: black; }
 
 #estadios {
-  padding: 50px 50px;
+  padding: 60px;
+  margin: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
